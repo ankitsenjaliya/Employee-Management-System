@@ -1,0 +1,17 @@
+.action-buttons button {
+    display: none;
+}
+
+.action-buttons.visible button {
+    display: inline-block;
+}
+
+.action-buttons {
+    overflow: hidden;
+    max-width: 0;
+    transition: max-width 0.3s ease-in-out;
+}
+
+.action-buttons.visible {
+    max-width: 100px; /* Adjust the width as needed */
+}
